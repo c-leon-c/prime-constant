@@ -24,7 +24,7 @@ def first_n_primes(n):
     print(f"Generated {len(primes)} primes in {time.time() - start:.1f}s")
     return primes
 
-def compute_constant_million_fixed(num_terms)
+def compute_constant_million_fixed(num_terms):
     print(f"\nComputing {num_terms} terms at {PRECISION} bit precision...")
     
     start = time.time()
